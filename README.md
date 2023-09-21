@@ -16,10 +16,10 @@ A tool written in PowerShell to analyze and compare security group memberships o
     - View groups that User2 is a member of, but User1 isn't.
     - View groups that both users share.
 4. *Exit the script*
-    -View Results: Based on the option selected, the script will display the results on the console.
+    - View Results: Based on the option selected, the script will display the results on the console.
 
 ## Functionality Breakdown
-- *Module Loading*: The script ensures the Active Directory module is loaded before proceeding.
+- *Module Loading:* The script ensures the Active Directory module is loaded before proceeding.
 - *Fetching Group Memberships:* Uses the Get-ADPrincipalGroupMembership cmdlet to fetch security groups for the provided AD usernames.
 - *Comparison:* Utilizes the Compare-Object cmdlet to perform a comparison between the security groups of the two users.
 - *User Interaction:* An intuitive menu is provided for users to select what type of comparison they want to view.
