@@ -8,6 +8,32 @@ A tool written in PowerShell to analyze and compare security group memberships o
 ## Prerequisites
 **Active Directory Module:** Ensure the Active Directory module is installed and available on your system. The script will automatically load this module.
 
+### To install the Active Directory PowerShell module, you can use one of the following methods:
+*Using the Control Panel
+    *Open the Control Panel.
+    *Go to Programs and Features.
+    *Click Turn Windows features on or off.
+    *Expand Remote Server Administration Tools.
+    *Expand Role Administration Tools.
+    *Expand AD DS and AD LDS Tools.
+    *Select Active Directory Module for Windows PowerShell.
+    *Click OK.
+    
+*Using PowerShell
+    *Open PowerShell.
+    *Type the following command:
+    
+    ```powershell
+    Install-Module ActiveDirectory
+    ```
+
+*Using the Microsoft Store
+    *Open the Microsoft Store.
+    *Search for "Active Directory PowerShell module".
+    *Click Install.
+    
+### Once the module is installed, you can start using it to manage your Active Directory environment.
+
 ## How to Use
 1. **Run the Script:** Execute the security-group-user-comparisons.ps1 script in your PowerShell environment.
 2. **Enter Usernames:** You will be prompted to input the usernames of two AD users you wish to compare.
