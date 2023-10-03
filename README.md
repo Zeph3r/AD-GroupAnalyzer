@@ -2,6 +2,17 @@
 A tool written in PowerShell to analyze and compare security group memberships of two AD users. Streamlines auditing and ensures consistent user permissions.
 Security Group User Comparisons Tool
 
+## Table of Contents
+
+- [About](#about)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Error Handling](#error-handling)
+- [Logging](#logging)
+- [License](#license)
+
+
 ## About
 A tool written in PowerShell to analyze and compare security group memberships of two AD users. This utility streamlines the auditing process and ensures consistent user permissions across the board.
 
